@@ -5,6 +5,9 @@
   h3,.menu-tag{
     @include font-size(22px);
   }
+  h4{
+    @include font-size(18px);
+  }
   nav{
     a{
       @include font-size(22px);
@@ -19,8 +22,8 @@
   }
   .column{
     ul{
-      a{
-        width:60%;
+      .column-img{
+        width:30%;
       }
     }
   }

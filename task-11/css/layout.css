@@ -63,10 +63,10 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 .column { padding: 10px 0; }
 .column ul { display: flex; }
 .column ul li { flex-grow: 1; border-right: 1px solid #dedede; text-align: center; }
-.column ul a { display: inline-block; height: 100%; }
-.column ul a img { width: 80%; }
-.column ul a h4 { display: block; margin: 5px auto; }
-.column ul a h5 { display: block; color: #666; }
+.column ul li .column-img { display: block; width: 60%; width: 60%; margin: 10px auto; line-height: 1; }
+.column ul li img { width: 100%; }
+.column ul .column-iterm h4 { display: block; margin: 5px auto; }
+.column ul .column-iterm h5 { display: block; color: #666; }
 
 /**/
 /**/
@@ -99,9 +99,10 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 /**/
 /**/
 @media (min-width: 640px) { h3, .menu-tag { font-size: 22px; }
+  h4 { font-size: 18px; }
   nav a { font-size: 22px; }
   .sub-menu li a { width: 50%; margin: 0 auto; max-width: 140px; }
-  .column ul a { width: 60%; }
+  .column ul .column-img { width: 30%; }
   .module-iterm { /**/ /**/ margin-top: 20px; margin-bottom: 20px; padding-bottom: 20px; }
   .module-iterm aside { width: 130px; }
   .module-iterm aside img { width: 130px; height: 130px; }

@@ -95,12 +95,15 @@ nav{
     display: flex;
     li{
       flex-grow: 1;border-right:1px solid $default-border-color; text-align: center;
-    }
-    a{
-       display:inline-block; height: 100%;
-      img{
-        width:80%;
+      .column-img{
+        display:block;width:60%;width:60%;margin:10px auto; line-height: 1;
       }
+      img{
+        width:100%;
+      }
+    }
+    .column-iterm{
+
       h4{
         display: block;margin:5px auto;
       }
