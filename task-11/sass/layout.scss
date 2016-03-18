@@ -92,14 +92,14 @@ nav{
 .column{
   padding:10px 0;
   ul{
-    display: flex;
+    display: flex;align-items:flex-end;
     li{
       flex-grow: 1;border-right:1px solid $default-border-color; text-align: center;
       .column-img{
-        display:block;width:60%;width:60%;margin:10px auto; line-height: 1;
+        display:block;width:60%;margin:10px auto; line-height: 1; 
       }
       img{
-        width:100%;
+        width:100%;max-width:225px;max-height: 240px;
       }
     }
     .column-iterm{
