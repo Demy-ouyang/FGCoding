@@ -36,7 +36,7 @@ html, body { -webkit-user-select: none; /* 禁止选中文本（如无文本选�
 
 /**/
 header { background: #91d4da; color: #fff; /*text-align: center;*/ line-height: 57px; display: flex; }
-header .go-back { display: inline-block; width: 100px; line-height: 57px; font-size: 18; padding-left: 15px; }
+header .go-back { display: inline-block; width: 100px; line-height: 57px; font-size: 18px; padding-left: 15px; vertical-align: text-bottom; }
 header .go-back img { width: 22px; }
 header h1 { text-align: center; line-height: 57px; flex-grow: 1; margin-left: -100px; font-size: 24px; font-weight: normal; }
 
@@ -54,7 +54,7 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 .menu { margin: 0 15px; border-bottom: 1px solid #dedede; padding: 22px 0; }
 .menu .sub-menu { display: flex; }
 .menu .sub-menu li { flex-grow: 1; text-align: center; }
-.menu .sub-menu a { display: inline-block; }
+.menu .sub-menu a { display: inline-block; width: 90%; margin: 0 auto; }
 .menu .sub-menu span { display: block; }
 .menu .sub-menu span.menu-dot { background-color: #00c7d6; border-radius: 50%; width: 70%; height: 0; padding-bottom: 70%; overflow: hidden; margin-left: 15%; }
 .menu .sub-menu span.menu-dot img { width: 80%; margin-top: 7.5%; }
@@ -63,7 +63,7 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 .column { padding: 10px 0; }
 .column ul { display: flex; }
 .column ul li { flex-grow: 1; border-right: 1px solid #dedede; text-align: center; }
-.column ul a { width: 50%; height: 100%; }
+.column ul a { display: inline-block; height: 100%; }
 .column ul a img { width: 80%; }
 .column ul a h4 { display: block; margin: 5px auto; }
 .column ul a h5 { display: block; color: #666; }
@@ -88,7 +88,7 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 .page-article article section h3 { display: block; margin-top: 15px; color: #676767; height: 48.42105px; font-size: 16px; line-height: 1.2; padding-right: 15px; }
 .page-article article section p { display: block; line-height: 20px; color: #c4c4c4; height: 20px; line-height: 20px; font-size: 12px; }
 .page-article article section.article-pic h3 { height: auto; margin-bottom: 10px; }
-.page-article article .article-pic-list { overflow: hidden; }
+.page-article article .article-pic-list { overflow: hidden; margin-left: -5px; margin-right: -5px; }
 .page-article article .article-pic-list li { display: inline-block; float: left; width: 33.333%; padding: 5px; }
 .page-article article .article-pic-list li img { width: 100%; }
 
@@ -100,6 +100,8 @@ nav ul li.active { border-bottom-color: #90d6d8; }
 /**/
 @media (min-width: 640px) { h3, .menu-tag { font-size: 22px; }
   nav a { font-size: 22px; }
+  .sub-menu li a { width: 50%; margin: 0 auto; max-width: 140px; }
+  .column ul a { width: 60%; }
   .module-iterm { /**/ /**/ margin-top: 20px; margin-bottom: 20px; padding-bottom: 20px; }
   .module-iterm aside { width: 130px; }
   .module-iterm aside img { width: 130px; height: 130px; }

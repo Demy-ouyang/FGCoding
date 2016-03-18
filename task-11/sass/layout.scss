@@ -32,7 +32,7 @@ html, body {
 header{
   background: $header-bg; color: $color-white; /*text-align: center;*/ line-height:$h1-height;display: flex;
   .go-back{
-    display: inline-block;width:$go-back-width; line-height:$h1-height; @include font-size(18);padding-left:15px;
+    display: inline-block;width:$go-back-width; line-height:$h1-height; @include font-size(18px);padding-left:15px; vertical-align: text-bottom;
     img{
      width:22px;
     }
@@ -73,7 +73,7 @@ nav{
       flex-grow: 1;text-align: center;
     }
     a{
-      display: inline-block;
+      display: inline-block;width:90%;margin:0 auto;
     }
     span{
       display: block;
@@ -97,7 +97,7 @@ nav{
       flex-grow: 1;border-right:1px solid $default-border-color; text-align: center;
     }
     a{
-      width:50%; height: 100%;
+       display:inline-block; height: 100%;
       img{
         width:80%;
       }
@@ -180,7 +180,7 @@ $h3-height:$article-aside-height - $p-height;
     }
 
     .article-pic-list{
-      overflow: hidden;
+      overflow: hidden;margin-left:-5px;margin-right:-5px;
       li{
         display: inline-block;float: left;width:33.333%;padding:5px;
         img{
