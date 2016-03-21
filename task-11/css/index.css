@@ -15,7 +15,6 @@ html, body {
 .clear{clear: both;}
 
 
-
 .page-container{max-width: 640px;margin:0 auto;}
 header{ background: #91d4da; color: #fff; /*text-align: center;*/ line-height:65px;display: flex;}
 header .go-back{ display: inline-block;width:100px; line-height:65px; font-size: 1rem;  }

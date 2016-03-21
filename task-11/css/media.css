@@ -1,0 +1,56 @@
+@media (min-width: 640px) {
+  h3, .menu-tag {
+    font-size: 22px; }
+
+  h4 {
+    font-size: 18px; }
+
+  nav a {
+    font-size: 22px; }
+
+  .sub-menu li a {
+    width: 50%;
+    margin: 0 auto;
+    max-width: 140px; }
+
+  .column ul .column-img {
+    width: 30%; }
+
+  .module-iterm {
+    /**/
+    /**/
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px; }
+    .module-iterm aside {
+      width: 130px; }
+      .module-iterm aside img {
+        width: 130px;
+        height: 130px; }
+    .module-iterm article {
+      left: 130px; }
+      .module-iterm article a {
+        margin-bottom: 20px;
+        padding-left: 20px; }
+        .module-iterm article a span {
+          line-height: 55px;
+          font-size: 16px; }
+
+  /**/
+  /**/
+  .page-article article aside {
+    width: 180px; }
+    .page-article article aside img {
+      width: 180px;
+      height: 123.15789px; }
+  .page-article article section h3 {
+    height: 93.15789px;
+    font-size: 22px; }
+  .page-article article section p {
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px; }
+  .page-article article section.article {
+    left: 210px; } }
+
+/*# sourceMappingURL=media.css.map */
