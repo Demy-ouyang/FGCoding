@@ -1,4 +1,4 @@
-# FGCoding团队
+
 ##IFE春季班第一阶段任务http://ife.baidu.com/task/all
 #####项目地址http://demy-ouyang.github.io/FGCoding/
 #####任务三：三栏式布局http://demy-ouyang.github.io/FGCoding/task-03/index.html
